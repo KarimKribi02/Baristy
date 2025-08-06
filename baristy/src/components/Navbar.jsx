@@ -15,7 +15,7 @@ const Navbar = () => {
     { name: "Accueil", to: "/" },
     { name: "Menu", to: "/menu" },
     { name: "Concept", to: "/concept" },
-    { name: "Galerie", to: "/galerie" },
+    { name: "Galerie", to: "/gallery" },
     { name: "Contact", to: "/contact" },
   ];
 
