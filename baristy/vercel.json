@@ -1,25 +1,5 @@
 {
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/"
-    },
-    {
-      "src": "/menu",
-      "dest": "/"
-    },
-    {
-      "src": "/concept",
-      "dest": "/"
-    },
-    {
-      "src": "/gallery",
-      "dest": "/"
-    },
-    {
-      "src": "/contact",
-      "dest": "/"
-    }
-
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
